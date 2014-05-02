@@ -114,7 +114,7 @@ That adds these pedigrees to the project and assigns "sets" a VCF file to them.
 Just one more command - we have to load the VCF file into a database that allows fast access. 
 Alas, this is the time intensive step, and can take a couple hours: 
 
-	./manage.py reload 1kg 
+	./manage.py reload 1kg --no-async
 
 ## Development
 
